@@ -20,13 +20,12 @@ public class Main {
         }
     }
 
-    private static final double PAJAK = 0.10; // Pajak 10%
-    private static final double DISKON = 0.10; // Diskon 10%
-    private static final double MINIMAL_DISKON = 50000; // Minimal 50rb untuk dapat diskon
+    private static final double PAJAK = 0.10;
+    private static final double DISKON = 0.10;
+    private static final double MINIMAL_DISKON = 50000;
     private ArrayList<ItemPesanan> daftarPesanan = new ArrayList<>();
     private String nomorMeja;
 
-    // Menu sederhana
     private static final String[] menuNama = {
             "Nasi Goreng", "Ayam Goreng", "Es Teh", "Es Jeruk"
     };
@@ -39,7 +38,6 @@ public class Main {
         this.nomorMeja = nomorMeja;
     }
 
-    // Method untuk menghitung diskon
     private double hitungDiskon(double subtotal) {
         if (subtotal >= MINIMAL_DISKON) {
             return subtotal * DISKON;

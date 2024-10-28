@@ -3,17 +3,12 @@ import java.util.Scanner;
  * Kelas CalculatorRefactored merupakan implementasi kalkulator sederhana
  * yang dapat melakukan operasi aritmatika dasar (penjumlahan, pengurangan,
  * perkalian, dan pembagian) melalui antarmuka konsol.
- *
- * Program ini meminta input dari pengguna berupa dua angka dan satu operator,
- * kemudian menampilkan hasil perhitungannya.
  */
 public class Calculator {
     /**
      * Method utama yang menjalankan program kalkulator.
      * Method ini mengatur alur program dengan meminta input dari pengguna,
      * melakukan perhitungan, dan menampilkan hasilnya.
-     *
-     * @param args Parameter standar untuk method main (tidak digunakan dalam program ini)
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

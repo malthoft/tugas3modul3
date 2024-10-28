@@ -23,18 +23,7 @@ Untuk menjalankan program ini, Anda memerlukan:
 
 ## Cara Menjalankan Program
 
-### Menggunakan Command Line
 
-1. Pastikan JDK sudah terinstal di sistem Anda
-2. Buka terminal atau command prompt
-3. Compile program dengan perintah:
-   ```bash
-   javac Calculator.java
-   ```
-4. Jalankan program dengan perintah:
-   ```bash
-   java Calculator
-   ```
 
 ### Menggunakan IDE
 
